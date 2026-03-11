@@ -1,17 +1,20 @@
 {
   "name": "albert-inngest-vercel-integration",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "tsc"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "inngest": "^3.19.0"
+    "inngest": "^3.19.0",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
-    "typescript": "^5.3.2",
-    "vercel": "^39.0.0"
+    "@types/react": "^18.2.0",
+    "typescript": "^5.3.2"
   }
 }
