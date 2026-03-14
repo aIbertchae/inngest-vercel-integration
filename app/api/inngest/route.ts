@@ -2,8 +2,9 @@ import { serve } from "inngest/next";
 import { inngest } from "@/inngest/client";
 import { baseline } from "@/inngest/functions/baseline";
 import { second } from "@/inngest/functions/second";
+import { third } from "@/inngest/functions/third";
 
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [baseline, second],
+  functions: [baseline, second, third],
 });
