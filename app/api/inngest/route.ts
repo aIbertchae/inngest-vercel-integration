@@ -3,8 +3,9 @@ import { inngest } from "@/inngest/client";
 import { baseline } from "@/inngest/functions/baseline";
 import { second } from "@/inngest/functions/second";
 import { third } from "@/inngest/functions/third";
+import { fourth } from "@/inngest/functions/fourth";
 
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [baseline, second, third],
+  functions: [baseline, second, third, fourth],
 });
