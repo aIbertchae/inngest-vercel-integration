@@ -7,8 +7,9 @@ import { fourth } from "@/inngest/functions/fourth";
 import { fifth } from "@/inngest/functions/fifth";
 import { sixth } from "@/inngest/functions/sixth";
 import { seventh } from "@/inngest/functions/seventh";
+import { eighth } from "@/inngest/functions/eighth";
 
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [baseline, second, third, fourth, fifth, sixth, seventh],
+  functions: [baseline, second, third, fourth, fifth, sixth, seventh, eighth],
 });
