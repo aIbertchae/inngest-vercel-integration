@@ -10,8 +10,9 @@ import { seventh } from "@/inngest/functions/seventh";
 import { eighth } from "@/inngest/functions/eighth";
 import { ninth } from "@/inngest/functions/ninth";
 import { tenth } from "@/inngest/functions/tenth";
+import { eleventh } from "@/inngest/functions/eleventh";
 
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [baseline, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth],
+  functions: [baseline, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh],
 });
